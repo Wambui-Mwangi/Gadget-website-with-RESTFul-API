@@ -1,0 +1,150 @@
+.first{
+    list-style: none;
+    display: flex;
+    gap: 4em;
+}
+.second{
+    list-style: none;
+    display: flex;
+    gap: 4em;
+}
+nav ul{
+    display: flex;
+    gap: 12em;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+#logo{
+    width: 5%;
+}
+.firstsec{
+    display: flex;
+    padding-top: 30px;
+    gap: 1em;
+    margin: 0% 8% 3% 8%;
+}
+#search{
+    margin-top: 2%;
+}
+#searchh{
+    padding: 15px;
+    background-color: yellow;
+}
+.intro{
+    background-color: rgb(191, 172, 191);
+    display: flex;
+    margin: 0% 8% 0% 8%;
+}
+.txt{
+    margin: 2% 2% 2% 5%;
+}
+#trusted{
+    font-size: 40px;
+}
+#order{
+    padding: 8px 20px 8px 20px;
+    background-color: yellow;
+    border: none;
+}
+#explore{
+    padding: 8px 20px 8px 20px;
+    background-color:  rgb(191, 172, 191);
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+.icons{
+    display: flex;
+    gap: 3em;
+    /* margin: 2% 2% 2% 5%; */
+    margin: 5% 8% 0% 8%;
+    /* margin-top: 5%; */
+    text-align: center; 
+}
+.icon{
+    border: solid rgb(246, 242, 242);
+    padding: 20px;
+    width: 100%;
+}
+.head{
+    text-align: center;
+}
+.testimonial{
+    display: flex;
+    padding-top: 30px;
+    gap: 3em;
+    margin: 5% 8% 0% 15%;
+}
+.subscription{
+    display: flex;
+    gap: 10em;
+    margin: 8% 8% 0% 8%;
+}
+.headset{
+    display: flex;
+}
+#subscribe{
+    font-size: 30px;
+}
+footer{
+    display: flex;
+    gap: 5em;
+    /* margin-left: 5%; */
+    background-color: rgb(38, 37, 37);
+    color: white;
+    line-height: 35px;
+    font-size: 12px;
+}
+footer ul{
+    list-style: none;
+    color: white;
+}
+.head h2{
+    font-size: 50px;
+}
+.sec{
+    background-color: rgb(221, 221, 221);
+    margin-top: 5%;
+    /* margin: 5%; */
+}
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    margin-left: 5%;
+    /* margin: 0% 1% 1% 8%; */
+}
+#images{
+    border-radius: 10px;
+    padding: 5px;
+    /* border: solid rgb(188, 184, 184) 2px; */
+    background-color: white;
+    padding: 15px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 5% 2% 2% 5%;
+    /* width: 45%; */
+}
+#heading{
+    font-size: 15px;
+}
+.timer{
+    display: flex;
+    gap: 3em;
+    margin-left: 10%;
+}
+.time{
+    display: flex;
+    gap: 3em;
+    margin-top: 1%;
+}
+#time{
+    border: solid black;
+    padding: 0px 14px 0px 14px;
+    margin-left: -18%;
+    margin-top: -2%;
+}

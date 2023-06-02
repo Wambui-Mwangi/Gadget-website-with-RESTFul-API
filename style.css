@@ -1,4 +1,6 @@
-.first{
+*{
+    font-family: 'Ubuntu', sans-serif;
+}.first{
     list-style: none;
     display: flex;
     gap: 4em;
@@ -7,6 +9,13 @@
     list-style: none;
     display: flex;
     gap: 4em;
+    margin-left: 14%;
+}
+#button{
+    padding: 10px 30px;
+    background-color: yellow;
+    border-style: none;
+    margin-top: -2%;
 }
 nav ul{
     display: flex;
@@ -59,9 +68,7 @@ nav{
 .icons{
     display: flex;
     gap: 3em;
-    /* margin: 2% 2% 2% 5%; */
     margin: 5% 8% 0% 8%;
-    /* margin-top: 5%; */
     text-align: center; 
 }
 .icon{
@@ -78,6 +85,9 @@ nav{
     gap: 3em;
     margin: 5% 8% 0% 15%;
 }
+#test{
+    font-size: 20px;
+}
 .subscription{
     display: flex;
     gap: 10em;
@@ -92,7 +102,6 @@ nav{
 footer{
     display: flex;
     gap: 5em;
-    /* margin-left: 5%; */
     background-color: rgb(38, 37, 37);
     color: white;
     line-height: 35px;
@@ -108,26 +117,22 @@ footer ul{
 .sec{
     background-color: rgb(221, 221, 221);
     margin-top: 5%;
-    /* margin: 5%; */
 }
 #products{
     display: flex;
     flex-wrap: wrap;
     gap: 3em;
     margin-left: 5%;
-    /* margin: 0% 1% 1% 8%; */
 }
 #images{
     border-radius: 10px;
     padding: 5px;
-    /* border: solid rgb(188, 184, 184) 2px; */
     background-color: white;
     padding: 15px;
     width: 200px;
     height: 200px;
     object-fit: cover;
     margin: 5% 2% 2% 5%;
-    /* width: 45%; */
 }
 #heading{
     font-size: 15px;
@@ -147,4 +152,8 @@ footer ul{
     padding: 0px 14px 0px 14px;
     margin-left: -18%;
     margin-top: -2%;
+}
+#external{
+    background-color: rgb(53, 52, 52);
+    color: white;
 }
